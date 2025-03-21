@@ -941,13 +941,13 @@
               "html": "button",
               "type": 1,
               "color": "green",
-              "label": "🖫 Сохранить"
+              "label": "🖫 Speichern"
             },
             {
               "id": "ui_page_settings",
               "html": "button",
               "type": 0,
-              "label": "🔙 Выход"
+              "label": "🔙 Ausgabe"
             }
           ]
         },
@@ -979,13 +979,13 @@
               "html": "button",
               "type": 1,
               "color": "green",
-              "label": "🖫 Сохранить"
+              "label": "🖫 Speichern"
             },
             {
               "id": "ui_page_settings",
               "html": "button",
               "type": 0,
-              "label": "🔙 Выход"
+              "label": "🔙 Ausgabe"
             }
 
           ]
@@ -994,28 +994,28 @@
     },
     "otheropts":{
       "section": "set_other",
-      "label": "Параметры",
+      "label": "Parameter",
       "main": true,
       "block": [
         {
           "html": "spacer",
-          "label": "Эффекты"
+          "label": "Wirkungы"
         },
         {
           "id": "swFade",
           "html": "input",
-          "label": "Плавное переключение эффектов",
+          "label": "Плавное переключение Wirkungов",
           "type": "checkbox"
         },
         {
           "id": "swWipeScreen",
           "html": "input",
-          "label": "Очищать экран при смене эффектов",
+          "label": "Очищать экран при смене Wirkungов",
           "type": "checkbox"
         },
         {
           "html": "spacer",
-          "label": "Демо эффектов"
+          "label": "Демо Wirkungов"
         },
         {
           "id": "demoRndOrder",
@@ -1031,7 +1031,7 @@
           "min": 10,
           "max": 900,
           "step": 10,
-          "label": "Смена эффекта в Демо, сек"
+          "label": "Смена Wirkungа в Демо, сек"
         },
         {
           "html": "spacer",
@@ -1057,7 +1057,7 @@
           "id": "set_other",
           "html": "button",
           "type": 1,
-          "label": "🖫 Сохранить",
+          "label": "🖫 Speichern",
           "fa": "fas fa-circle-check"
         },
         {
@@ -1068,7 +1068,7 @@
           "html": "button",
           "color": "green",
           "type":"generic",
-          "label": "🔙 Выход"
+          "label": "🔙 Ausgabe"
         }
       ]
     }
@@ -1077,7 +1077,7 @@
   "pages":{
     "modules_list":{
       "section":"modules",
-      "label":"🏗 Модули",
+      "label":"🏗 Module",
       "main":true,
       "block":[
         {
@@ -1087,7 +1087,7 @@
             {
               "id":"set_modstate_clock",
               "html":"input",
-              "label":"🕰 Часы поверх эффекта",
+              "label":"🕰 Uhr über dem Effekt",
               "type":"checkbox",
               "onChange": true
             },
@@ -1095,7 +1095,7 @@
               "id": "ui_page_module_clock",
               "html": "button",
               "type": 0,
-              "label": "🛠 Параметры"
+              "label": "🛠 Parameter"
             }
           ]
         },
@@ -1106,7 +1106,7 @@
             {
               "id":"set_modstate_alrmclock",
               "html":"input",
-              "label":"⏰ Будильник/Кукушка",
+              "label":"⏰ Wecker/Kuckuck",
               "type":"checkbox",
               "onChange": true
             },
@@ -1114,7 +1114,7 @@
               "id": "ui_page_module_alrmclock",
               "html": "button",
               "type": 0,
-              "label": "🛠 Параметры"
+              "label": "🛠 Parameter"
             }
           ]
         },
@@ -1125,7 +1125,7 @@
             {
               "id":"set_modstate_txtscroll",
               "html":"input",
-              "label":"🔤 Слой бегущей строки",
+              "label":"🔤 Die Tickerebene",
               "type":"checkbox",
               "onChange": true
             },
@@ -1133,7 +1133,7 @@
               "id": "ui_page_module_txtscroll",
               "html": "button",
               "type": 0,
-              "label": "🛠 Параметры"
+              "label": "🛠 Parameter"
             }
           ]
         },
@@ -1144,7 +1144,7 @@
             {
               "id":"set_modstate_omnicron",
               "html":"input",
-              "label":"📅⏱ Планировщик OmniCron",
+              "label":"📅⏱ OmniCron Zeitplaner",
               "type":"checkbox",
               "onChange": true
             },
@@ -1152,7 +1152,7 @@
               "id": "ui_page_module_omnicron",
               "html": "button",
               "type": 0,
-              "label": "🛠 Параметры"
+              "label": "🛠 Parameter"
             }
           ]
         },
@@ -1163,7 +1163,7 @@
             {
               "id":"set_modstate_weather",
               "html":"input",
-              "label":"⛅ Сервис погоды",
+              "label":"⛅ Wetterdienst",
               "type":"checkbox",
               "onChange": true
             },
@@ -1171,7 +1171,7 @@
               "id": "ui_page_module_weather",
               "html": "button",
               "type": 0,
-              "label": "🛠 Параметры"
+              "label": "🛠 Parameter"
             }
           ]
         },
@@ -1182,7 +1182,7 @@
             {
               "id":"set_modstate_narodmon",
               "html":"input",
-              "label":"⛅ Сервис NarodMon",
+              "label":"⛅ NarodMon-Dienst",
               "type":"checkbox",
               "onChange": true
             },
@@ -1190,7 +1190,7 @@
               "id": "ui_page_module_narodmon",
               "html": "button",
               "type": 0,
-              "label": "🛠 Параметры"
+              "label": "🛠 Parameter"
             }
           ]
         },
@@ -1201,7 +1201,7 @@
             {
               "id":"set_modstate_sensors",
               "html":"input",
-              "label":"🌡 Локальные датчики",
+              "label":"🌡 Lokale Sensoren",
               "type":"checkbox",
               "onChange": true
             },
@@ -1209,7 +1209,7 @@
               "id": "ui_page_module_sensors",
               "html": "button",
               "type": 0,
-              "label": "🛠 Параметры"
+              "label": "🛠 Parameter"
             }
           ]
         }
@@ -1218,22 +1218,22 @@
     "module":{
       "clock":{
         "section":"set_modcfg_clock",
-        "label":"🕓 Часы поверх эффекта",
+        "label":"🕓 Uhr über dem Effekt",
         "main":true,
         "block":[
           {
             "html":"comment",
-            "label":"Параметры настройки см. в <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%92%D0%B8%D0%B4%D0%B6%D0%B5%D1%82-%D1%87%D0%B0%D1%81%D1%8B\">WiKi</a>"
+            "label":"Parametereinstellungen <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%92%D0%B8%D0%B4%D0%B6%D0%B5%D1%82-%D1%87%D0%B0%D1%81%D1%8B\">WiKi</a>"
           },
           {
             "section":"ui_modpreset",
-            "label":"Профиль",
+            "label":"Profil",
             "block":[
               {
                 "id": "set_modpreset_clock",
                 "html":"input",
                 "type": "number",
-                "label": "Профиль настроек"
+                "label": "Profil Einstellungen"
               },
               {
                 "section":"preset_ctrls",
@@ -1304,13 +1304,13 @@
                   {
                     "id":"seconds",
                     "html":"input",
-                    "label":"Отображать секунды",
+                    "label":"Sekunden anzeigen",
                     "type":"checkbox"
                   },
                   {
                     "id":"clk12h",
                     "html":"input",
-                    "label":"12-часовой формат",
+                    "label":"12-Stunden-Format",
                     "type":"checkbox"
                   }
                 ]
@@ -1324,7 +1324,7 @@
                     "html":"input",
                     "value": 0,
                     "type": "number",
-                    "label": "↦ Позиция X",
+                    "label": "↦ Position X",
                     "min": 0,
                     "step": 1
                   },
@@ -1333,7 +1333,7 @@
                     "html":"input",
                     "value": 15,
                     "type": "number",
-                    "label": "↧ Позиция Y",
+                    "label": "↧ Position Y",
                     "min": 0,
                     "step": 1
                   },
@@ -1341,7 +1341,7 @@
                     "id": "clkw",
                     "html":"input",
                     "type": "number",
-                    "label": "⇱⇲ Ширина поля",
+                    "label": "⇱⇲ Feldbreite",
                     "min": 8,
                     "step": 1
                   },
@@ -1349,7 +1349,7 @@
                     "id": "clkh",
                     "html":"input",
                     "type": "number",
-                    "label": "⇱⇲ Высота поля",
+                    "label": "⇱⇲ Feldhöhe",
                     "min": 4,
                     "step": 1
                   }
@@ -1363,14 +1363,14 @@
                     "id": "x1offset",
                     "html":"input",
                     "type": "number",
-                    "label": "⍈ смещение X",
+                    "label": "⍈ Ausgleich X",
                     "step": 1
                   },
                   {
                     "id": "y1offset",
                     "html":"input",
                     "type": "number",
-                    "label": "⍗ Смещение Y",
+                    "label": "⍗ Ausgleich Y",
                     "step": 1
                   }
                 ]
@@ -1383,7 +1383,7 @@
                     "id":"font1",
                     "html":"select",
                     "value":5,
-                    "label":"Шрифт часов",
+                    "label":"Schriftart der Uhr",
                     "section":"options",
                     "block":[
                       { "value":0, "label":"5x8 Сyrillic" },
@@ -1412,7 +1412,7 @@
                     "id":"font2",
                     "html":"select",
                     "value":5,
-                    "label":"Шрифт секунд",
+                    "label":"Schriftart Sekunden",
                     "section":"options",
                     "block":[
                       { "value":0, "label":"5x8 Сyrillic" },
@@ -1443,12 +1443,12 @@
                 "id":"mixer",
                 "html":"select",
                 "value":0,
-                "label":"Алгоритм наложения",
+                "label":"Überlagerungsalgorithmus",
                 "section":"options",
                 "block":[
-                  { "value":0, "label":"Затенение фона" },
-                  { "value":1, "label":"Альфа прозрачность" },
-                  { "value":2, "label":"Цветовая маска"}
+                  { "value":0, "label":"Hintergrundschattierung" },
+                  { "value":1, "label":"Alpha-Transparenz" },
+                  { "value":2, "label":"Farbige Maske"}
                 ]
               },
               {
@@ -1460,7 +1460,7 @@
                     "html":"input",
                     "value": 54000,
                     "type": "number",
-                    "label": "Цвет текста (565)",
+                    "label": "Textfarbe (565)",
                     "min": 0
                   },
                   {
@@ -1468,7 +1468,7 @@
                     "html":"input",
                     "value": 4430,
                     "type": "number",
-                    "label": "Цвет фона (565)",
+                    "label": "Hintergrundfarbe (565)",
                     "min": 0
                   }
                 ]
@@ -1482,7 +1482,7 @@
                     "html":"input",
                     "value": 64,
                     "type": "number",
-                    "label": "Прозрачность текста",
+                    "label": "Transparenz Texte",
                     "min": 0,
                     "max": 255,
                     "step": 1
@@ -1492,7 +1492,7 @@
                     "html":"input",
                     "value": 10,
                     "type": "number",
-                    "label": "Прозрачность фона",
+                    "label": "Transparenz Hintergrund",
                     "min": 0,
                     "max": 255,
                     "step": 1
@@ -1504,7 +1504,7 @@
                 "html":"input",
                 "value": -1,
                 "type": "number",
-                "label": "Включить эффект № (-1 оставить текущий)",
+                "label": "Effekt Nr. einschalten (-1 zum deaktivieren)",
                 "min": -1,
                 "max": 255,
                 "step": 1
@@ -1513,12 +1513,12 @@
           },
           {
             "section":"mod_clock_date",
-            "label":"Календарь",
+            "label":"Kalender",
             "block":[
               {
                 "id":"date",
                 "html":"input",
-                "label":"Отображать дату",
+                "label":"Datum anzeigen",
                 "type":"checkbox"
               },
               {
@@ -1531,7 +1531,7 @@
                 "id":"font3",
                 "html":"select",
                 "value":5,
-                "label":"Шрифт",
+                "label":"Schriftart",
                 "section":"options",
                 "block":[
                   { "value":0, "label":"5x8 Сyrillic" },
@@ -1565,7 +1565,7 @@
                     "html":"input",
                     "value": 54000,
                     "type": "number",
-                    "label": "Цвет 565",
+                    "label": "Farbe 565",
                     "min": 1
                   },
                   {
@@ -1573,7 +1573,7 @@
                     "html":"input",
                     "value": 128,
                     "type": "number",
-                    "label": "затенение фона",
+                    "label": "Beschattung Hintergrund",
                     "min": 0,
                     "max": 255
                   }
@@ -1587,7 +1587,7 @@
                     "id": "x2pos",
                     "html":"input",
                     "type": "number",
-                    "label": "Позиция X",
+                    "label": "Position X",
                     "min": 0,
                     "step": 1
                   },
@@ -1595,7 +1595,7 @@
                     "id": "y2pos",
                     "html":"input",
                     "type": "number",
-                    "label": "Позиция Y",
+                    "label": "Position Y",
                     "min": 0,
                     "step": 1
                   },
@@ -1603,7 +1603,7 @@
                     "id": "datew",
                     "html":"input",
                     "type": "number",
-                    "label": "Ширина поля",
+                    "label": "Feldbreite",
                     "min": 8,
                     "step": 1
                   },
@@ -1611,7 +1611,7 @@
                     "id": "dateh",
                     "html":"input",
                     "type": "number",
-                    "label": "Высота поля",
+                    "label": "Feldhöhe",
                     "min": 4,
                     "step": 1
                   }
@@ -1625,14 +1625,14 @@
                     "id": "x2offset",
                     "html":"input",
                     "type": "number",
-                    "label": "Смещение X",
+                    "label": "Versetzt X",
                     "step": 1
                   },
                   {
                     "id": "y2offset",
                     "html":"input",
                     "type": "number",
-                    "label": "Смещение Y",
+                    "label": "Versetzt Y",
                     "step": 1
                   }
                 ]
@@ -1643,76 +1643,76 @@
             "id":"set_modcfg_clock",
             "html":"button",
             "type":"submit",
-            "label":"✅ Применить"
+            "label":"✅ Bewerbung"
           },
           {
             "id":"ui_page_modules",
             "html":"button",
             "color": "green",
             "type":"generic",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       },
       "alrmclock":{
         "section":"mod_alrmclock",
-        "label":"⏰ Будильник / Кукушка",
+        "label":"⏰ Wecker / Kuckuck",
         "main":true,
         "block":[
           {
             "html":"comment",
-            "label":"Подробнее о параметрах настройки см. <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%91%D1%83%D0%B4%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA\" target=\"_blank\">WiKi</a>"
+            "label":"Einzelheiten zu den Einstellungsmöglichkeiten <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%91%D1%83%D0%B4%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA\" target=\"_blank\">WiKi</a>"
           },
           {
             "section":"set_modcfg_alrmclock",
-            "label":"Кукушка",
+            "label":"Kuckuck",
             "block":[
               {
                 "id":"cockoo_hr",
                 "html":"select",
                 "value":0,
-                "label":"Ежечасно",
+                "label":"stündlich",
                 "section":"options",
                 "block":[
                   {
                     "value":0,
-                    "label":"Выключено"
+                    "label":"aus"
                   },
                   {
                     "value":1,
-                    "label":"🗣 Говорящие часы"
+                    "label":"🗣 sprachausgabe Uhrzeit"
                   },
                   {
                     "value":2,
-                    "label":"Ку-ку 2"
+                    "label":"Kuckuck 2"
                   },
                   {
                     "value":3,
-                    "label":"Ку-ку 3"
+                    "label":"Kuckuck 3"
                   },
                   {
                     "value":4,
-                    "label":"Ку-ку 4"
+                    "label":"Kuckuck 4"
                   },
                   {
                     "value":5,
-                    "label":"Ку-ку 5"
+                    "label":"Kuckuck 5"
                   },
                   {
                     "value":6,
-                    "label":"Ку-ку 6"
+                    "label":"Kuckuck 6"
                   },
                   {
                     "value":7,
-                    "label":"Ку-ку 7"
+                    "label":"Kuckuck 7"
                   },
                   {
                     "value":8,
-                    "label":"Ку-ку 8"
+                    "label":"Kuckuck 8"
                   },
                   {
                     "value":9,
-                    "label":"Ку-ку 9"
+                    "label":"Kuckuck 9"
                   }
                 ]
               },
@@ -1720,48 +1720,48 @@
                 "id":"cockoo_hhr",
                 "html":"select",
                 "value":0,
-                "label":"Пол часа",
+                "label":"halbe Stunde",
                 "section":"options",
                 "block":[
                   {
                     "value":0,
-                    "label":"Выключено"
+                    "label":"aus"
                   },
                   {
                     "value":1,
-                    "label":"Говорящие часы"
+                    "label":"Uhrzeitansage"
                   },
                   {
                     "value":2,
-                    "label":"Ку-ку 2"
+                    "label":"Kuckuck 2"
                   },
                   {
                     "value":3,
-                    "label":"Ку-ку 3"
+                    "label":"Kuckuck 3"
                   },
                   {
                     "value":4,
-                    "label":"Ку-ку 4"
+                    "label":"Kuckuck 4"
                   },
                   {
                     "value":5,
-                    "label":"Ку-ку 5"
+                    "label":"Kuckuck 5"
                   },
                   {
                     "value":6,
-                    "label":"Ку-ку 6"
+                    "label":"Kuckuck 6"
                   },
                   {
                     "value":7,
-                    "label":"Ку-ку 7"
+                    "label":"Kuckuck 7"
                   },
                   {
                     "value":8,
-                    "label":"Ку-ку 8"
+                    "label":"Kuckuck 8"
                   },
                   {
                     "value":9,
-                    "label":"Ку-ку 9"
+                    "label":"Kuckuck 9"
                   }
                 ]
               },
@@ -1769,48 +1769,48 @@
                 "id":"quarter",
                 "html":"select",
                 "value":0,
-                "label":"Четверть часа",
+                "label":"Viertelstunde",
                 "section":"options",
                 "block":[
                   {
                     "value":0,
-                    "label":"Выключено"
+                    "label":"aus"
                   },
                   {
                     "value":1,
-                    "label":"Говорящие часы"
+                    "label":"Uhrzeitansage"
                   },
                   {
                     "value":2,
-                    "label":"Ку-ку 2"
+                    "label":"Kuckuck 2"
                   },
                   {
                     "value":3,
-                    "label":"Ку-ку 3"
+                    "label":"Kuckuck 3"
                   },
                   {
                     "value":4,
-                    "label":"Ку-ку 4"
+                    "label":"Kuckuck 4"
                   },
                   {
                     "value":5,
-                    "label":"Ку-ку 5"
+                    "label":"Kuckuck 5"
                   },
                   {
                     "value":6,
-                    "label":"Ку-ку 6"
+                    "label":"Kuckuck 6"
                   },
                   {
                     "value":7,
-                    "label":"Ку-ку 7"
+                    "label":"Kuckuck 7"
                   },
                   {
                     "value":8,
-                    "label":"Ку-ку 8"
+                    "label":"Kuckuck 8"
                   },
                   {
                     "value":9,
-                    "label":"Ку-ку 9"
+                    "label":"Kuckuck 9"
                   }
                 ]
               },
@@ -1819,7 +1819,7 @@
               },
               {
                 "section":"wrkhrs",
-                "label":"Часы работы кукушки",
+                "label":"Weckzeit(en)",
                 "line": true,
                 "block":[
                   {
@@ -1827,7 +1827,7 @@
                     "html":"input",
                     "value": 0,
                     "type": "number",
-                    "label": "Начало",
+                    "label": "Beginn",
                     "min": 0,
                     "max": 23,
                     "step": 1
@@ -1837,7 +1837,7 @@
                     "html":"input",
                     "value": 24,
                     "type": "number",
-                    "label": "Конец",
+                    "label": "Ende",
                     "min": 1,
                     "max": 24,
                     "step": 1
@@ -1849,7 +1849,7 @@
                 "id":"set_modcfg_alrmclock",
                 "html":"button",
                 "type":"submit",
-                "label":"✅ Применить"
+                "label":"✅ Bewerbung"
               }
            ]
           },
@@ -1858,18 +1858,18 @@
             "html":"button",
             "color": "green",
             "type":"generic",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       },
       "txtscroll":{
         "section":"mod_txtscroll_container",
-        "label":"🔤 Бегущая строка",
+        "label":"🔤 Scroller",
         "main":true,
         "block":[
           {
             "html":"comment",
-            "label":"Подробнее о настройках см. <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/Бегущая-строка\" target=\"_blank\">WiKi</a>"
+            "label":"Weitere Informationen zu den Einstellungen <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/Бегущая-строка\" target=\"_blank\">WiKi</a>"
           },
           {
             "section":"mod_txtscroll_body",
@@ -1877,7 +1877,7 @@
               {
                 "section":"mod_txtscroll_generic",
                 "hidden": true,
-                "label":"Сообщения о событиях",
+                "label":"Ereignis-Meldungen",
                 "block":[
                   {
                     "section":"set_mod_txtscroll_generic",
@@ -1886,14 +1886,14 @@
                       {
                         "id":"wifi",
                         "html":"input",
-                        "label":"События WiFi",
+                        "label":"Einstellungen WiFi",
                         "type":"checkbox"
                       },
                       {
                         "id":"stream_id",
                         "html":"input",
                         "type":"number",
-                        "label":"номер потока (0 - любой поток)",
+                        "label":"Streamnummer (0 - zufälliger Stream)",
                         "value": 0,
                         "min":0,
                         "step":1
@@ -1904,7 +1904,7 @@
                     "id": "set_mod_txtscroll_generic",
                     "html": "button",
                     "type": 1,
-                    "label":"🖫 Сохранить"
+                    "label":"🖫 Speichern"
                   }
                 ]
               },
@@ -1912,7 +1912,7 @@
               {
                 "section":"set_mod_txtscroll_send",
                 "hidden": true,
-                "label":"Отправка сообщения",
+                "label":"Nachricht senden",
                 "block":[
                   {
                     "section":"set_mod_txtscroll_opt1",
@@ -1921,14 +1921,14 @@
                       {
                         "id":"prepend",
                         "html":"input",
-                        "label":"Приоритетное",
+                        "label":"Priorität",
                         "type":"checkbox"
                       },
                       {
                         "id":"stream_id",
                         "html":"input",
                         "type":"number",
-                        "label":"номер потока (0 - любой поток)",
+                        "label":"Stream (0 - zufälliger Stream)",
                         "value": 0,
                         "min":0,
                         "step":1
@@ -1940,7 +1940,7 @@
                     "id":"cnt",
                     "html":"input",
                     "type":"number",
-                    "label":"кол-во повторов",
+                    "label":"Anzahl Wiederholungen",
                     "value": 1,
                     "min":1,
                     "step":1
@@ -1949,7 +1949,7 @@
                     "id":"interval",
                     "html":"input",
                     "type":"number",
-                    "label":"интервал вывода, с",
+                    "label":"Intervall",
                     "value": 0,
                     "min":0,
                     "step":1
@@ -1958,13 +1958,13 @@
                     "id":"text",
                     "html":"input",
                     "type":"textarea",
-                    "label":"Сообщение"
+                    "label":"Nachricht"
                   },
                   {
                     "id": "set_mod_txtscroll_send",
                     "html": "button",
                     "type": 1,
-                    "label":"📨 Отправить"
+                    "label":"📨 senden"
                   }
                 ]
               },
@@ -1977,7 +1977,7 @@
               {
                 "id":"get_mod_txtscroll_scroll",
                 "html":"button",
-                "label":"Новый бегущий блок",
+                "label":"Neuer Textscroller",
                 "type":"js",
                 "function":"txtscroller_mk_page_edit_stream",
                 "value": -1
@@ -1987,7 +1987,7 @@
                 "html":"button",
                 "color":"green",
                 "type":"generic",
-                "label":"🔙 Выход"
+                "label":"🔙 Ausgabe"
               }
             ]
           }
@@ -1995,23 +1995,23 @@
       },
       "omnicron":{
         "section":"mod_omnicron",
-        "label":"📅 Планировщик ОмниКрон",
+        "label":"📅 OmniCron Planer",
         "main":true,
         "block":[
           {
             "html":"comment",
-            "label":"Подробнее о планировщике см. <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/OmniCron\" target=\"_blank\">WiKi</a>"
+            "label":"Weitere Infos zum Zeitplaner <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/OmniCron\" target=\"_blank\">WiKi</a>"
           }
         ]
       },
       "omnicron_task":{
         "section":"set_mod_omnicron_task",
-        "label":"⏱ ОмниКрон - задача",
+        "label":"⏱ OmniCron ist eine Herausforderung",
         "main":true,
         "block":[
           {
             "html":"comment",
-            "label":"Подробнее о планировщике см. <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/OmniCron\" target=\"_blank\">WiKi</a>"
+            "label":"OmniCron ist eine Herausforderung <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/OmniCron\" target=\"_blank\">WiKi</a>"
           },
           {
             "id": "idx",
@@ -2048,43 +2048,43 @@
             "id": "set_mod_omnicron_task",
             "html": "button",
             "type": 1,
-            "label":"🖫 Сохранить"
+            "label":"🖫 Speichern"
           },
           {
             "id": "ui_page_module_omnicron",
             "html": "button",
             "type": 0,
             "color": "green",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       },
       "weather":{
         "section":"set_modcfg_weather",
-        "label":"⛅ Сервис погоды",
+        "label":"⛅ Wetterdienst",
         "main":true,
         "block":[
           {
             "section":"OpenWeather",
-            "label":"Сервис OpenWeather",
+            "label":"OpenWeather",
             "block":[
               {
                 "id":"cityid",
                 "html":"input",
-                "label":"Код города в OpenWeather",
+                "label":"CityId OpenWeather",
                 "type":"number"
               },
               {
                 "id":"apikey",
                 "html":"input",
-                "label":"Ключ API OpenWeather",
+                "label":"API Key OpenWeather",
                 "type":"text"
               },
               {
                 "id":"refresh",
                 "html":"input",
                 "type":"number",
-                "label":"Обновление, ч.",
+                "label":"Updateintervall",
                 "min":1,
                 "max":12,
                 "step":1
@@ -2093,25 +2093,25 @@
                 "html": "input",
                 "id": "sunrise",
                 "type": "checkbox",
-                "label": "Выводить восход/закат"
+                "label": "Sonnenaufgang/Sonnenuntergang anzeigen"
               }
             ]
           },
           { "html":"spacer" },
           {
             "section":"queue",
-            "label":"Очередь бегущей строки",
+            "label":"Queue",
             "block":[
               {
                 "id":"destination",
                 "html":"input",
-                "label":"Номер потока бегущей строки",
+                "label":"Destination (Nummer)",
                 "type":"number"
               },
               {
                 "id":"repeat",
                 "html":"input",
-                "label":"число повторов вывода строки (-1 - бесконечно)",
+                "label":"Anzahl der Wiederholungen (-1 - unendlich)",
                 "type":"number",
                 "value": -1
               },
@@ -2119,7 +2119,7 @@
                 "id":"interval",
                 "html":"input",
                 "type":"number",
-                "label":"Интервал вывода сообщения, с",
+                "label":"Intervall",
                 "min":0,
                 "step":1
               }
@@ -2129,43 +2129,43 @@
             "id":"set_modcfg_weather",
             "html":"button",
             "type":"submit",
-            "label":"✅ Применить"
+            "label":"✅ Bewerbung"
           },
           {
             "id":"ui_page_modules",
             "html":"button",
             "color": "green",
             "type":"generic",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       },
       "narodmon":{
         "section":"set_modcfg_narodmon",
-        "label":"⛅ NarodMon",
+        "label":"⛅ NarodMon Wetterdienst",
         "main":true,
         "block":[
           {
             "section":"OpenWeather",
-            "label":"Параметры доступа к сенсору",
+            "label":"Parameter NarodMon Wetterdienst",
             "block":[
               {
                 "id":"apikey",
                 "html":"input",
-                "label":"Ключ API NarodMon",
+                "label":"API Key NarodMon",
                 "type":"text"
               },
               {
                 "id":"sensor_id",
                 "html":"input",
-                "label":"Код сенсора",
+                "label":"code",
                 "type":"text"
               },
               {
                 "id":"refresh",
                 "html":"input",
                 "type":"number",
-                "label":"Обновление, мин.",
+                "label":"Update, min.",
                 "min":5,
                 "step":5
               }
@@ -2174,18 +2174,18 @@
           { "html":"spacer" },
           {
             "section":"queue",
-            "label":"Очередь бегущей строки",
+            "label":"Queue",
             "block":[
               {
                 "id":"destination",
                 "html":"input",
-                "label":"Номер потока бегущей строки",
+                "label":"Destination (Nummer)",
                 "type":"number"
               },
               {
                 "id":"repeat",
                 "html":"input",
-                "label":"число повторов вывода строки (-1 - бесконечно)",
+                "label":"Anzahl Wiederholungen (-1 - unendlich)",
                 "type":"number",
                 "value": -1
               },
@@ -2193,7 +2193,7 @@
                 "id":"interval",
                 "html":"input",
                 "type":"number",
-                "label":"Интервал вывода сообщения, с",
+                "label":"Intervall in Sekunden",
                 "min":0,
                 "step":1
               }
@@ -2203,33 +2203,33 @@
             "id":"set_modcfg_narodmon",
             "html":"button",
             "type":"submit",
-            "label":"🖫 Сохранить"
+            "label":"🖫 Speichern"
           },
           {
             "id":"ui_page_modules",
             "html":"button",
             "color": "green",
             "type":"generic",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       }
       ,
       "sensors":{
         "section":"set_modcfg_sensors",
-        "label":"🌡 Локальные датчики",
+        "label":"🌡 Lokale Sensoren",
         "main":true,
         "block":[
           {
             "html":"comment",
-            "label":"настройки лежат в файле sensors.json, править через FTP"
+            "label":"Einstellungen in der Datei sensors.json, Bearbeitung via FTP"
           },
           {
             "id":"ui_page_modules",
             "html":"button",
             "color": "green",
             "type":"generic",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       }
@@ -2306,20 +2306,20 @@
           "id": "set_gpio",
           "html": "button",
           "type": 1,
-          "label":"✅ Применить"
+          "label":"✅ Bewerbung"
         },
         {
           "id": "ui_page_settings",
           "html":"button",
           "color": "green",
           "type":"generic",
-          "label":"🔙 Выход"
+          "label":"🔙 Ausgabe"
         }
       ]
     },
     "effTitle":{
       "section": "ui_page_effects",
-      "label": "Эффекты",
+      "label": "Effekte",
       "main": true,
       "block": [
         {
@@ -2330,14 +2330,14 @@
               "html": "input",
               "id": "dev_pwrswitch",
               "type": "checkbox",
-              "label": "Включить",
+              "label": "aktivieren",
               "onChange": true
             },
             {
               "html": "button",
               "type": 0,
               "id": "ui_block_switches",
-              "label": "Выключатели..."
+              "label": "Switch..."
             }
           ]
         },
@@ -2350,21 +2350,21 @@
             {
               "id": "demoOn",
               "html": "input",
-              "label": "🟔 Демо",
+              "label": "🟔 Demo",
               "type": "checkbox",
               "onChange": true
             },
             {
               "id": "demoRndOrder",
               "html": "input",
-              "label": "🔀 случайный порядок",
+              "label": "🔀 zufällige Reihenfolge",
               "type": "checkbox",
               "onChange": true
             },
             {
               "id": "demoRndCtrls",
               "html": "input",
-              "label": "🎲 случайные контролы",
+              "label": "🎲 Zufallskontrollen",
               "type": "checkbox",
               "onChange": true
             }
@@ -2375,14 +2375,14 @@
           "html": "input",
           "id": "dev_brightness",
           "type": "range",
-          "label": "Яркость",
+          "label": "Helligkeit",
           "min": 0,
           "max": 20,
           "onChange": true
         },
         {
           "html":"comment",
-          "label":"Эффект"
+          "label":"Wirkung"
         },
         {
           "section":"uidata",
@@ -2427,7 +2427,7 @@
         {
           "section":"eff_preset_blk",
           "hidden": true,
-          "label":"Профили настроек",
+          "label":"Konfigurationsprofile",
           "block":[
             {
               "id": "eff_preset",
@@ -2441,7 +2441,7 @@
                 {
                   "id":"label",
                   "html":"input",
-                  "label":"Имя пресета",
+                  "label":"Name der Voreinstellung",
                   "type":"text"
                 },
                 {
@@ -2449,7 +2449,7 @@
                   "html":"button",
                   "type":"submit",
                   "color": "green",
-                  "label":"Переименовать"
+                  "label":"Umbenennen"
                 }
               ]
             },
@@ -2457,14 +2457,14 @@
               "id":"eff_preset_new",
               "html":"button",
               "type":"generic",
-              "label":"Создать новый"
+              "label":"Erstellen Voreinstellung"
             },
             {
               "id":"eff_preset_remove",
               "html":"button",
               "type":"generic",
               "color": "red",
-              "label":"Удалить"
+              "label":"löschen"
             }
           ]
         }
@@ -2596,7 +2596,7 @@
         "block":[
           {
             "html":"comment",
-            "label":"Установки будильников 🔔"
+            "label":"Alarm-Einstellungen 🔔"
           }
         ]
       },
@@ -2610,7 +2610,7 @@
               {
                 "id":"active",
                 "html":"input",
-                "label":"Активен",
+                "label":"Aktiv",
                 "type":"checkbox"
               },
               {
@@ -2664,7 +2664,7 @@
               },
               {
                 "value":3,
-                "label":"По выходным"
+                "label":"По Ausgabeным"
               }
             ]
           },
@@ -2679,14 +2679,14 @@
               {
                 "id":"riseOn",
                 "html":"input",
-                "label":"Активен",
+                "label":"Aktiv",
                 "type":"checkbox"
               },
               {
                 "id":"eff_idx",
                 "html":"input",
                 "type":"number",
-                "label":"Переключить эффект",
+                "label":"Schalter Wirkung",
                 "min":0,
                 "max":256,
                 "step":1
@@ -2701,7 +2701,7 @@
                 "id":"startBr",
                 "html":"input",
                 "type":"number",
-                "label":"Начальная яркость",
+                "label":"Ursprüngliche Helligkeit",
                 "min":-1,
                 "max":256,
                 "step":1
@@ -2710,7 +2710,7 @@
                 "id":"endBr",
                 "html":"input",
                 "type":"number",
-                "label":"Конечная яркость",
+                "label":"Ultimativ Helligkeit",
                 "min":-1,
                 "max":256,
                 "step":1
@@ -2725,7 +2725,7 @@
                 "id":"offset",
                 "html":"input",
                 "type":"number",
-                "label":"до будильника, мин",
+                "label":"Offset, Minuten",
                 "min":0,
                 "max":60,
                 "step":5
@@ -2734,7 +2734,7 @@
                 "id":"duration",
                 "html":"input",
                 "type":"number",
-                "label":"длительность, мин",
+                "label":"Dauer, Minuten",
                 "min":1,
                 "max":60,
                 "step":1
@@ -2743,7 +2743,7 @@
           },
           {
             "html":"comment",
-            "label":"Закат"
+            "label":"Sonnenuntergang"
           },
           {
             "section":"alrm_dusk_sw",
@@ -2752,13 +2752,13 @@
               {
                 "id":"duskOn",
                 "html":"input",
-                "label":"Активен",
+                "label":"Aktiv",
                 "type":"checkbox"
               },
               {
                 "id":"duskPrwOff",
                 "html":"input",
-                "label":"Выключать лампу по завершении",
+                "label":"Abschalten nach Sonnenuntergang",
                 "type":"checkbox"
               }
             ]
@@ -2771,7 +2771,7 @@
                 "id":"duskStartBr",
                 "html":"input",
                 "type":"number",
-                "label":"Начальная яркость",
+                "label":"Start Helligkeit",
                 "min":-1,
                 "max":256,
                 "step":1
@@ -2780,7 +2780,7 @@
                 "id":"duskEndBr",
                 "html":"input",
                 "type":"number",
-                "label":"Конечная яркость",
+                "label":"End Helligkeit",
                 "min":-1,
                 "max":256,
                 "step":1
@@ -2795,7 +2795,7 @@
                 "id":"duskDuration",
                 "html":"input",
                 "type":"number",
-                "label":"длительность, мин",
+                "label":"Dauer, Minuten",
                 "min":1,
                 "max":60,
                 "step":1
@@ -2804,7 +2804,7 @@
                 "id":"duskEff",
                 "html":"input",
                 "type":"number",
-                "label":"Переключить эффект",
+                "label":"Schalter Wirkung",
                 "min":0,
                 "max":256,
                 "step":1
@@ -2815,7 +2815,7 @@
             "id": "alrm_item",
             "html": "button",
             "type": 2,
-            "label":"🖫 Сохранить",
+            "label":"🖫 Speichern",
             "function": "alarm_item_set"
           },
           { "html":"spacer" }
@@ -2826,7 +2826,7 @@
         "block":[
           {
             "html":"comment",
-            "label":"Настройки будильников доступны только при активном виджете"
+            "label":"Die Alarmeinstellungen sind nur verfügbar, wenn das Widget aktiv ist."
           }
         ]
       }
@@ -2851,7 +2851,7 @@
             "id": "get_mod_omnicron_task",
             "html": "button",
             "type": 0,
-            "label":"🛠 настроить",
+            "label":"🛠 Anpassen",
             "class":"pure-u-1-2 pure-u-lg-1-6"
           },
           {
@@ -2859,7 +2859,7 @@
             "html": "button",
             "type": 0,
             "color": "red",
-            "label":"🗑 удалить",
+            "label":"🗑 löschen",
             "class":"pure-u-1-2 pure-u-lg-1-6"
           }
         ]
@@ -2872,14 +2872,14 @@
             "html": "button",
             "type": 0,
             "value": -1,
-            "label":"Новая задача"
+            "label":"Neuer Task"
           },
           {
             "id":"ui_page_modules",
             "html":"button",
             "color": "green",
             "type":"generic",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       }
@@ -2894,14 +2894,14 @@
             "type": 2,
             "function": "txtscroller_mk_page_edit_stream",
             "value": -1,
-            "label":"Создать новый поток"
+            "label":"Ein neues Thema erstellen"
           },
           {
             "id":"ui_page_modules",
             "html":"button",
             "color": "green",
             "type":"generic",
-            "label":"🔙 Выход"
+            "label":"🔙 Ausgabe"
           }
         ]
       },
@@ -2927,7 +2927,7 @@
             "html":"button",
             "type":"js",
             "function":"txtscroller_mk_page_edit_stream",
-            "label":"🛠 настроить",
+            "label":"🛠 Anpassen",
             "class":"pure-u-1-2 pure-u-lg-1-6"
           },
           {
@@ -2935,14 +2935,14 @@
             "html":"button",
             "type":"generic",
             "color":"red",
-            "label":"🗑 удалить",
+            "label":"🗑 löschen",
             "class":"pure-u-1-2 pure-u-lg-1-6"
           }
         ]
       },
       "edit_stream_form":{
         "section":"mod_txtscroll_body",
-        "label": "Настройка потока",
+        "label": "Einstellungen Scroller",
         "replace": true,
         "block":[
           {
@@ -2951,27 +2951,27 @@
               {
                 "id":"active",
                 "html":"input",
-                "label":"Активен",
+                "label":"Aktiv",
                 "type":"checkbox"
               },
               {
                 "id":"stream_id",
                 "html":"input",
                 "type":"number",
-                "label":"Номер потока",
+                "label":"Nummer",
                 "min":0,
                 "step":1
               },
               {
                 "id":"descr",
                 "html":"input",
-                "label":"Название",
+                "label":"Titel",
                 "type":"text"
               },
               {
                 "id":"profile",
                 "html":"select",
-                "label":"Профиль оформления слоя",
+                "label":"Profil",
                 "section":"options",
                 "block":[]
               },
@@ -2979,7 +2979,7 @@
                 "id": "set_mod_txtscroll_streamcfg",
                 "html": "button",
                 "type": 1,
-                "label":"🖫 Сохранить"
+                "label":"🖫 Speichern"
               },
               {
                 "id": "edit_profile_btn",
@@ -2987,22 +2987,22 @@
                 "type": "js",
                 "function":"txtscroller_edit_profile",
                 "color": "magenta",
-                "label":"Редактировать оформление"
+                "label":"Entwurf bearbeiten"
               },
               {
                 "id":"ui_page_module_txtscroll",
                 "html":"button",
                 "color": "green",
                 "type":"generic",
-                "label":"🔙 Выход"
-              }    
+                "label":"🔙 Ausgabe"
+              }
             ]
           }
-        ]    
+        ]
       },
       "profile_editor":{
         "section":"mod_txtscroll_body",
-        "label": "Настройка профилей слоя строк",
+        "label": "Anpassen von String-Layer-Profilen",
         "replace": true,
         "block":[
           {
@@ -3010,12 +3010,12 @@
             "block":[
               {
                 "section":"profile_selector",
-                "label":"Профиль",
+                "label":"Profil",
                 "block":[
                   {
                     "id":"profile",
                     "html":"select",
-                    "label":"Профиль оформления",
+                    "label":"Profil Formalitäten",
                     "onJS":true,
                     "function":"txtscroller_load_profile_form",
                     "section":"options",
@@ -3024,14 +3024,14 @@
                   {
                     "id":"profile_lbl",
                     "html":"input",
-                    "label":"Переименовать профиль",
+                    "label":"Umbenennen Profil",
                     "type":"text"
                   }
                 ]
               },
               {
                 "section":"set_mod_txtscroll_profile_apply",
-                "label":"Слой строки",
+                "label":"Linienebene",
                 "block":[
                   {
                     "section":"txtscroll_fonts",
@@ -3051,7 +3051,7 @@
                         "id":"offset",
                         "html":"input",
                         "type":"number",
-                        "label":"Смещение базовой линии",
+                        "label":"Versetzt Grundlinie",
                         "min":0,
                         "max":16,
                         "step":1
@@ -3066,7 +3066,7 @@
                         "id":"width",
                         "html":"input",
                         "type":"number",
-                        "label":"Ширина блока",
+                        "label":"Blockbreite",
                         "min":4,
                         "max":256,
                         "step":4
@@ -3075,7 +3075,7 @@
                         "id":"height",
                         "html":"input",
                         "type":"number",
-                        "label":"Высота блока",
+                        "label":"Höhe des Blocks",
                         "min":4,
                         "max":128,
                         "step":1
@@ -3090,7 +3090,7 @@
                         "id":"x1pos",
                         "html":"input",
                         "type":"number",
-                        "label":"Привязка по X",
+                        "label":"Verbindlich X",
                         "min":0,
                         "max":256,
                         "step":1
@@ -3099,12 +3099,12 @@
                         "id":"y1pos",
                         "html":"input",
                         "type":"number",
-                        "label":"Привязка по Y",
+                        "label":"Verbindlich Y",
                         "min":4,
                         "max":256,
                         "step":1
                       }
-                    ]  
+                    ]
                   },
                   {
                     "section":"txtscroll_color",
@@ -3114,14 +3114,14 @@
                         "id": "color1",
                         "html":"input",
                         "type": "number",
-                        "label": "Цвет текста (565)",
+                        "label": "Farbe Texte (565)",
                         "min": 0
                       },
                       {
                         "id": "alpha_b",
                         "html":"input",
                         "type": "number",
-                        "label": "Прозрачность фона",
+                        "label": "Transparenz Hintergrund",
                         "min": 0,
                         "max": 255,
                         "step": 1
@@ -3132,7 +3132,7 @@
                     "id": "rate",
                     "html":"input",
                     "type": "number",
-                    "label": "Скорость прокрутки, пикс/с",
+                    "label": "Bildlaufgeschwindigkeit, pix/sec",
                     "min": 2,
                     "max": 200
                   },
@@ -3146,7 +3146,7 @@
                 "id":"set_mod_txtscroll_profile_apply",
                 "html":"button",
                 "type":"submit",
-                "label":"✅ Применить"
+                "label":"✅ Bewerbung"
               },
               {
                 "id":"set_mod_txtscroll_profile_save",
@@ -3154,14 +3154,14 @@
                 "type":"js",
                 "function":"txtscroller_save_profile_form",
                 "color":"red",
-                "label":"🖫 Сохранить"
+                "label":"🖫 Speichern"
               },
               {
                 "id":"ui_page_modules",
                 "html":"button",
                 "color": "green",
                 "type":"generic",
-                "label":"🔙 Выход"
+                "label":"🔙 Ausgabe"
               }
             ]
           }
@@ -3176,7 +3176,7 @@
           "html":"button",
           "color": "green",
           "type":"generic",
-          "label":"🔙 Выход"
+          "label":"🔙 Ausgabe"
        }
       ]
     },
@@ -3190,21 +3190,21 @@
             {
               "id": "dev_pwrswitch",
               "html": "input",
-              "label": "⏻ Включить",
+              "label": "⏻ Aktivieren",
               "type": "checkbox",
               "onChange": true
             },
             {
               "id": "dev_btnlock",
               "html": "input",
-              "label": "🗶 Блок. кнопку",
+              "label": "🗶 Schaltfläche Blockieren",
               "type": "checkbox",
               "onChange": true
             },
             {
               "id": "mp3mute",
               "html": "input",
-              "label": "🔇 Откл. мелодии",
+              "label": "🔇 Mute",
               "type": "checkbox",
               "onChange": true
             },
@@ -3251,14 +3251,14 @@
           "min": 1,
           "max": 30,
           "step": 1,
-          "label": "📢 MP3 Громкость",
+          "label": "📢 MP3 Lautstärke",
           "onChange": true
         },
         {
           "id": "ui_page_effects",
           "html": "button",
           "type": 0,
-          "label": "Скрыть"
+          "label": "Ausblenden"
         }
       ]
     }
@@ -3268,7 +3268,7 @@
     "fonts_all":{
       "id":"font_all",
       "html":"select",
-      "label":"Выбор шрифта",
+      "label":"Auswahl Schriftart",
       "section":"options",
       "block":[
         { "value":0, "label":"5x8 Сyrillic" },
@@ -3296,7 +3296,7 @@
     "fonts_txt":{
       "id":"font_txt",
       "html":"select",
-      "label":"Выбор шрифта",
+      "label":"Auswahl Schriftart",
       "section":"options",
       "block":[
         { "value":0, "label":"5x8 Сyrillic" },
@@ -3318,7 +3318,7 @@
           "html": "input",
           "id": "eff_control_0",
           "type": "range",
-          "label": "Скорость",
+          "label": "Geschwindigkeit",
           "min": 1,
           "max": 10,
           "onChange": true
@@ -3327,7 +3327,7 @@
           "html": "input",
           "id": "eff_control_1",
           "type": "range",
-          "label": "Масштаб",
+          "label": "Skala",
           "min": 0,
           "max": 25,
           "onChange": true
@@ -3335,7 +3335,7 @@
         {
           "id":"eff_control_2",
           "html":"input",
-          "label":"Кольца",
+          "label":"Ringe",
           "type":"checkbox",
           "onChange": true
         },
@@ -3343,7 +3343,7 @@
           "html": "input",
           "id": "eff_control_3",
           "type": "range",
-          "label": "Радиус колец",
+          "label": "Ring-Radius",
           "min": 1,
           "max": 10,
           "onChange": true
@@ -3352,7 +3352,7 @@
           "html": "input",
           "id": "eff_control_4",
           "type": "range",
-          "label": "Шлейф",
+          "label": "Schleife",
           "min": 0,
           "max": 10,
           "onChange": true
@@ -3379,7 +3379,7 @@
         {
           "id":"eff_control_2",
           "html":"select",
-          "label":"Палитры",
+          "label":"Paletten",
           "onChange": true,
           "value":4,
           "section":"options",
@@ -3430,7 +3430,7 @@
           "html": "input",
           "id": "eff_control_3",
           "type": "range",
-          "label": "Охлаждение",
+          "label": "Kühlung",
           "min": 0,
           "max": 9,
           "onChange": true
@@ -3439,7 +3439,7 @@
           "html": "input",
           "id": "eff_control_4",
           "type": "range",
-          "label": "Разброс",
+          "label": "Verbreitung",
           "min": 0,
           "max": 9,
           "onChange": true
@@ -3453,29 +3453,29 @@
         {
           "id":"eff_control_1",
           "html":"select",
-          "label":"Эффект",
+          "label":"Wirkung",
           "onChange": true,
           "section":"options",
           "block":[
             {
               "value":0,
-              "label":"Комета"
+              "label":"Komet"
             },
             {
               "value":1,
-              "label":"Комета 3"
+              "label":"Komet 3"
             },
             {
               "value":2,
-              "label":"Линия"
+              "label":"Leitung"
             },
             {
               "value":3,
-              "label":"Огонь"
+              "label":"Feuer"
             },
             {
               "value":4,
-              "label":"Струны"
+              "label":"Streicher"
             }
           ]
         },
@@ -3492,7 +3492,7 @@
           "html": "input",
           "id": "eff_control_2",
           "type": "range",
-          "label": "Шум. сдвиг",
+          "label": "Lärmverschiebung",
           "min": -10,
           "max": 10,
           "onChange": true
@@ -3501,7 +3501,7 @@
           "html": "input",
           "id": "eff_control_3",
           "type": "range",
-          "label": "Оттенок",
+          "label": "Farbton",
           "min": 0,
           "max": 32,
           "onChange": true
@@ -3510,7 +3510,7 @@
           "html": "input",
           "id": "eff_control_4",
           "type": "range",
-          "label": "Рваность",
+          "label": "reißt",
           "min": 0,
           "max": 9,
           "onChange": true
@@ -3519,7 +3519,7 @@
           "html": "input",
           "id": "eff_control_5",
           "type": "range",
-          "label": "Рамытие",
+          "label": "Ramity",
           "min": 0,
           "max": 10,
           "onChange": true
@@ -3528,7 +3528,7 @@
           "html": "input",
           "id": "eff_control_6",
           "type": "range",
-          "label": "Амплитуда",
+          "label": "Amplitude",
           "min": 1,
           "max": 10,
           "onChange": true
@@ -3537,7 +3537,7 @@
           "html": "input",
           "id": "eff_control_7",
           "type": "range",
-          "label": "Сглаживание шума",
+          "label": "Rauschglättung",
           "min": 0,
           "max": 9,
           "onChange": true
@@ -3561,17 +3561,16 @@
           "html": "input",
           "id": "eff_control_1",
           "type": "range",
-          "label": "Масштаб",
+          "label": "Skala",
           "min": 1,
           "max": 30,
           "value":10,
           "onChange": true
         },
-    
         {
           "id":"eff_control_2",
           "html":"select",
-          "label":"Палитры",
+          "label":"Paletten",
           "onChange": true,
           "value":0,
           "section":"options",
@@ -3650,7 +3649,7 @@
           "html": "input",
           "id": "eff_control_3",
           "type": "range",
-          "label": "Оттенок для спец палитры",
+          "label": "Farbton für Spezialpalette",
           "min": 0,
           "max": 255,
           "onChange": true
@@ -3659,20 +3658,20 @@
           "html": "select",
           "id": "eff_control_4",
           "onChange": true,
-          "label": "Фильтр",
+          "label": "Filter",
           "section":"options",
           "block":[
-            { "value":0, "label":"Отсутствует" },
-            { "value":1, "label":"линейный" },
-            { "value":2, "label":"Щарра 1" },
-            { "value":3, "label":"Щарра 2" },
-            { "value":4, "label":"Щарра 3" }
+            { "value":0, "label":"Abwesend" },
+            { "value":1, "label":"linear" },
+            { "value":2, "label":"Sciarra 1" },
+            { "value":3, "label":"Sciarra 2" },
+            { "value":4, "label":"Sciarra 3" }
           ]
         },
         {
           "id":"eff_control_5",
           "html":"input",
-          "label":"Физика",
+          "label":"Physik",
           "type":"checkbox",
           "onChange": true
         }
@@ -3772,7 +3771,7 @@
           "html": "input",
           "id": "eff_control_2",
           "type": "range",
-          "label": "Палитры",
+          "label": "Paletten",
           "min": 0,
           "max": 9,
           "onChange": true
@@ -3951,7 +3950,7 @@
           "html": "input",
           "id": "eff_control_4",
           "type": "range",
-          "label": "Размытие",
+          "label": "Unschärfe",
           "min": 1,
           "max": 10,
           "value":5,
@@ -3961,7 +3960,7 @@
           "html": "input",
           "id": "eff_control_2",
           "type": "range",
-          "label": "Число объектов стаи",
+          "label": "Anzahl der Schwarmobjekte",
           "min": 1,
           "max": 10,
           "onChange": true
@@ -3975,7 +3974,7 @@
         "html": "input",
         "id": "eff_control_0",
         "type": "range",
-        "label": "Скорость",
+        "label": "Geschwindigkeit",
         "min": 1,
         "max": 10,
         "value":5,
@@ -3985,7 +3984,7 @@
       "html": "input",
       "id": "eff_control_1",
       "type": "range",
-      "label": "Масштаб",
+      "label": "Skala",
       "min": 1,
       "max": 10,
       "value":5,
@@ -3994,7 +3993,7 @@
     "palette":{
       "id":"eff_control_2",
       "html":"select",
-      "label":"Палитры",
+      "label":"Paletten",
       "onChange": true,
       "value":0,
       "section":"options",
@@ -4096,7 +4095,7 @@
     "palette12":{
       "id":"eff_control_2",
       "html":"select",
-      "label":"Палитры",
+      "label":"Paletten",
       "onChange": true,
       "value":0,
       "section":"options",
@@ -4155,7 +4154,7 @@
       "html": "input",
       "id": "eff_control_3",
       "type": "range",
-      "label": "Затухание",
+      "label": "Abschwächung",
       "min": 1,
       "max": 10,
       "value":5,

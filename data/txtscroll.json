@@ -2,17 +2,17 @@
   "wifi": true,
   "scrollers":[
     {
-      "active":true, "stream_id":1, "descr":"Бегунок", "profile":3,
+      "active":true, "stream_id":1, "descr":"Scroller", "profile":3,
       "messages":[
-        {"cnt":1, "msg":"Добро пожаловать!"},
-        {"cnt":1, "msg":"Присоединяйтесь к группе в Телеграмм: @lampdevs"}
+        {"cnt":1, "msg":"Herzlich willkommen!"},
+        {"cnt":1, "msg":"Treten Sie der Telegram Gruppe bei: @lampdevs"}
       ]
     },
     {
-      "active":true,"stream_id":2,"descr":"Бегунок 64x32 низ","profile":1,
+      "active":true,"stream_id":2,"descr":"Scroller 64x32 unten","profile":1,
       "messages":[
-        {"cnt":1, "msg":"Добро пожаловать!"},
-        {"cnt":1, "msg":"Присоединяйтесь к группе в Телеграмм: @lampdevs"}
+        {"cnt":1, "msg":"Herzlich willkommen!"},
+        {"cnt":1, "msg":"Treten Sie der Telegram Gruppe bei: @lampdevs"}
       ]
     }
   ],

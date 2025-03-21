@@ -44,7 +44,7 @@
     "maximum_ram_size": 327680,
     "maximum_size": 8388608,
     "require_upload_port": true,
-    "speed": 460800
+    "speed": 1500000
   },
   "url": "https://www.hdwell.com/Product/index46.html",
   "vendor": "Huidu Tech",

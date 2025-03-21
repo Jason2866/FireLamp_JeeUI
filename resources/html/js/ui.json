@@ -6,7 +6,7 @@
   "settings":{
     "hub75":{
       "section":"display_hub75",
-      "label":"Параметры HUB75 панели",
+      "label":"HUB75-Panel-Parameter",
       "block":[
         {
           "id":"dtype",
@@ -15,14 +15,14 @@
         },
         {
           "html":"comment",
-          "label":"Изменение параметров панели вызовет перезагрузку контроллера.<br>Подробнее о параметрах настройки см. <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-LED-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D1%8F#hub75-api\" target=\"_blank\">WiKi</a>"
+          "label":"Das Ändern der Panel-Parameter führt zu einem Neustart.<br>Für weitere Informationen о siehe „Einstellung der Parameter“. <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-LED-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D1%8F#hub75-api\" target=\"_blank\">WiKi</a>"
         },
         {
           "html":"spacer"
         },
         {
           "html":"comment",
-          "label":"Размерность панели"
+          "label":"Abmessung des Panels"
         },
         {
           "section":"hub75_wh",
@@ -32,7 +32,7 @@
               "id":"width",
               "html":"input",
               "type":"number",
-              "label":"Ширина",
+              "label":"Breite",
               "min":32,
               "step":32
             },
@@ -40,7 +40,7 @@
               "id":"height",
               "html":"input",
               "type":"number",
-              "label":"Высота",
+              "label":"Höhe",
               "min":16,
               "step":16
             }
@@ -51,7 +51,7 @@
         },
         {
           "html":"comment",
-          "label":"GPIO данных цветности"
+          "label":"GPIO-Farb Konfiguration"
         },
         {
           "section":"hub75_gpio_rgb1",
@@ -124,7 +124,7 @@
         },
         {
           "html":"comment",
-          "label":"адресные GPIO"
+          "label":"adressierbare GPIOs"
         },
         {
           "section":"hub75_gpio_abcde",
@@ -181,7 +181,7 @@
         },
         {
           "html":"comment",
-          "label":"управляющие GPIO"
+          "label":"Steuerung GPIO"
         },
         {
           "section":"hub75_gpio_col",
@@ -221,7 +221,7 @@
         },
         {
           "html":"comment",
-          "label":"параметры I2S DMA"
+          "label":"Parameter I2S DMA"
         },
         {
           "section":"hub75_drv",
@@ -230,19 +230,19 @@
             {
               "id":"clkphase",
               "html":"input",
-              "label":"Фаза CLK",
+              "label":"Phase CLK",
               "type":"checkbox"
             },
             {
               "id":"driver",
               "html":"select",
               "value":0,
-              "label":"Драйвер",
+              "label":"Treiber",
               "section":"options",
               "block":[
                 {
                   "value":0,
-                  "label":"Универсальный"
+                  "label":"Universal"
                 },
                 {
                   "value":1,
@@ -274,24 +274,24 @@
               "id":"clkrate",
               "html":"select",
               "value":8000000,
-              "label":"Частота Clk",
+              "label":"Frequenz Clk",
               "section":"options",
               "block":[
                 {
                   "value":8000000,
-                  "label":"8 МГц"
+                  "label":"8 Mhz"
                 },
                 {
                   "value":10000000,
-                  "label":"10 МГц"
+                  "label":"10 Mhz"
                 },
                 {
                   "value":15000000,
-                  "label":"15 МГц"
+                  "label":"15 Mhz"
                 },
                 {
                   "value":20000000,
-                  "label":"20 МГц"
+                  "label":"20 Mhz"
                 }
               ]
             }
@@ -305,7 +305,7 @@
               "id":"colordpth",
               "html":"input",
               "type":"number",
-              "label":"Глубина цвета, бит",
+              "label":"Farbtiefe, Bits",
               "value":6,
               "min":3,
               "max":8,
@@ -315,7 +315,7 @@
               "id":"minrr",
               "html":"input",
               "type":"number",
-              "label":"мин частота обновления, Hz",
+              "label":"Mindestaktualisierungsrate, Hz",
               "min":60,
               "value":60,
               "step":1
@@ -324,7 +324,7 @@
               "id":"latblank",
               "html":"input",
               "type":"number",
-              "label":"затенение LAT",
+              "label":"Beschattung LAT",
               "value":2,
               "min":1,
               "max":4,
@@ -336,20 +336,20 @@
           "id":"display_hub75",
           "html":"button",
           "type":"submit",
-          "label":"🖫 Сохранить"
+          "label":"🖫 Speichern"
         },
         {
           "id":"ui_page_settings",
           "html":"button",
           "color": "green",
           "type":"generic",
-          "label":"🔙 Выход"
+          "label":"🔙 Ausgabe"
         }
       ]
     },
     "ws2812":{
       "section": "display_ws2812",
-      "label": "Параметры адресной ленты",
+      "label": "Parameter des WS2812-Displays",
       "block": [
         {
           "id": "dtype",
@@ -358,7 +358,7 @@
         },
         {
           "html": "comment",
-          "label": "Подробнее о параметрах настройки см. <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-LED-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D1%8F\" target=\"_blank\">WiKi</a><br>Смена gpio вызовет перезагрузку."
+          "label": "Einzelheiten zu den Einstellungsmöglichkeiten <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-LED-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D1%8F\" target=\"_blank\">WiKi</a><br>Смена gpio вызовет перезагрузку."
         },
         {
           "id":"col_order",
@@ -402,7 +402,7 @@
               "html": "input",
               "value": -1,
               "type": "number",
-              "label": "GPIO подключения матрицы",
+              "label": "GPIO-Anschluss der Matrix",
               "min": -1,
               "step": 1
             },
@@ -411,7 +411,7 @@
               "html": "input",
               "value": 2500,
               "type": "number",
-              "label": "Ограничение по току (mA)",
+              "label": "Stromgrenze (mA)",
               "min": 1000,
               "max": 16000,
               "step": 100
@@ -427,7 +427,7 @@
               "html": "input",
               "value": 16,
               "type": "number",
-              "label": "ширина",
+              "label": "Breite",
               "min": 1,
               "max": 256,
               "step": 1
@@ -437,7 +437,7 @@
               "html": "input",
               "value": 16,
               "type": "number",
-              "label": "высота",
+              "label": "Höhe",
               "min": 1,
               "max": 256,
               "step": 1
@@ -452,13 +452,13 @@
               "id": "snake",
               "html": "input",
               "value": true,
-              "label": "змейка",
+              "label": "Schlange",
               "type": "checkbox"
             },
             {
               "id": "vflip",
               "html": "input",
-              "label": "отзеркалировать столбцы",
+              "label": "vertikal spiegeln",
               "type": "checkbox"
             }
           ]
@@ -470,13 +470,13 @@
             {
               "id": "vertical",
               "html": "input",
-              "label": "вертикальная лента",
+              "label": "Vertikalgürtel",
               "type": "checkbox"
             },
             {
               "id": "hflip",
               "html": "input",
-              "label": "отзеркалировать строки",
+              "label": "horizontal spiegeln",
               "type": "checkbox"
             }
           ]
@@ -486,7 +486,7 @@
         },
         {
           "html": "comment",
-          "label": "Параметры каскада матриц"
+          "label": "Parameter Matrixkaskade"
         },
         {
           "section": "mxt_tile",
@@ -497,7 +497,7 @@
               "html": "input",
               "value": 1,
               "type": "number",
-              "label": "число плиток по X",
+              "label": "Anzahl der Kacheln in X",
               "min": 1,
               "max": 32,
               "step": 1
@@ -507,7 +507,7 @@
               "html": "input",
               "value": 1,
               "type": "number",
-              "label": "число плиток по Y",
+              "label": "Anzahl der Kacheln in Y",
               "min": 1,
               "max": 32,
               "step": 1
@@ -521,13 +521,13 @@
             {
               "id": "tsnake",
               "html": "input",
-              "label": "змейка",
+              "label": "Schlange",
               "type": "checkbox"
             },
             {
               "id": "tvflip",
               "html": "input",
-              "label": "отзеркалировать столбцы",
+              "label": "Spalten spiegeln",
               "type": "checkbox"
             }
           ]
@@ -539,13 +539,13 @@
             {
               "id": "tvertical",
               "html": "input",
-              "label": "вертикальные плитки",
+              "label": "vertikale Fliesen",
               "type": "checkbox"
             },
             {
               "id": "thflip",
               "html": "input",
-              "label": "отзеркалировать строки",
+              "label": "horizontal spiegeln",
               "type": "checkbox"
             }
           ]
@@ -555,25 +555,25 @@
           "html": "button",
           "type": 1,
           "color": "green",
-          "label": "🖫 Сохранить"
+          "label": "🖫 Speichern"
         },
         {
           "id": "ui_page_settings",
           "html": "button",
           "type": 0,
-          "label": "🔙 Выход"
+          "label": "🔙 Ausgabe"
         }
       ]
     },
     "tm1637":{
       "section":"set_display_tm1637",
       "main": true,
-      "label":"Параметры дисплея TM1637",
+      "label":"Optionen setzen: TM1637",
       "block":[
         {
           "id":"enabled",
           "html":"input",
-          "label":"Активировать дисплей TM1637",
+          "label":"Aktivieren Anzeige TM1637",
           "type":"checkbox"
         },
         {
@@ -608,7 +608,7 @@
           "min": 1,
           "max": 7,
           "step": 1,
-          "label": "Яркость"
+          "label": "Helligkeit"
         },
         {
           "id": "brtOff",
@@ -618,7 +618,7 @@
           "min": 0,
           "max": 7,
           "step": 1,
-          "label": "Яркость при выключенной лампе (0 - погасить)"
+          "label": "Helligkeit (0 - aus)"
         },
         {
           "section": "opts",
@@ -627,13 +627,13 @@
             {
               "id":"clk12h",
               "html":"input",
-              "label":"12-часовой формат отображения",
+              "label":"12-Stunden-Anzeigeformat",
               "type":"checkbox"
             },
             {
               "id":"lzero",
               "html":"input",
-              "label":"Отображать ведущий 0 в часах",
+              "label":"Anzeige Master 0 in Stunden",
               "type":"checkbox"
             }
           ]
@@ -643,35 +643,35 @@
           "html": "button",
           "type": 1,
           "color": "green",
-          "label": "🖫 Сохранить"
+          "label": "🖫 speichern"
         },
         {
           "id": "ui_page_settings",
           "html": "button",
           "type": 0,
-          "label": "🔙 Выход"
+          "label": "🔙 Ausgabe"
         }
       ]
     },
     "button":{
       "section":"set_button",
       "main": true,
-      "label":"Настройка кнопки / энкодера",
+      "label":"Einstellung der Taste / des Drehgebers",
       "block":[
         {
           "html":"comment",
-          "label":"Параметры настройки см. в <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5\">WiKi</a>"
+          "label":"siehe „Einstellungsoptionen“ in <a href=\"https://github.com/vortigont/FireLamp_JeeUI/wiki/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5\">WiKi</a>"
         },
         {
           "html": "comment",
-          "label": "После сохранения изменений <b>перезагрузите</b> контроллер!"
+          "label": "Nach dem Speichern der Änderungen  <b>neustarten</b> des Controllers!"
         },
         {
           "html":"spacer"
         },
         {
           "section": "set_button_block",
-          "label": "Подключение кнопки",
+          "label": "Knopfverbindung",
           "hidden": true,
           "block":[
             {
@@ -684,13 +684,13 @@
                     {
                       "id":"enabled",
                       "html":"input",
-                      "label":"Активировать кнопку",
+                      "label":"Aktivieren Schaltfläche",
                       "type":"checkbox"
                     },
                     {
                       "id":"encoder",
                       "html":"input",
-                      "label":"кнопка энкодера",
+                      "label":"Encoder",
                       "type":"checkbox"
                     }
                   ]
@@ -711,13 +711,13 @@
                     {
                       "id":"logicL",
                       "html":"input",
-                      "label":"логический уровень HIGH",
+                      "label":"logische Ebene HIGH",
                       "type":"checkbox"
                     },
                     {
                       "id":"debounce",
                       "html":"input",
-                      "label":"Антидребезг",
+                      "label":"Entprellen",
                       "type":"checkbox"
                     }
                   ]
@@ -751,7 +751,7 @@
                   "html": "button",
                   "type": 1,
                   "color": "green",
-                  "label": "🖫 Сохранить"
+                  "label": "🖫 Speichern"
                 }
               ]
             }
@@ -759,7 +759,7 @@
         },
         {
           "section": "set_encoder_block",
-          "label": "Подключение энкодера",
+          "label": "Encoder anschluss",
           "hidden": true,
           "block":[
             {
@@ -768,7 +768,7 @@
                 {
                   "id":"Active",
                   "html":"input",
-                  "label":"Активировать энкодер",
+                  "label":"Encoder aktivieren",
                   "type":"checkbox"
                 },
                 {
@@ -802,7 +802,7 @@
                     {
                       "id":"pull",
                       "html":"input",
-                      "label":"подтяжка к Vcc",
+                      "label":"Vcc-Pull-up",
                       "value": true,
                       "type":"checkbox"
                     },
@@ -810,7 +810,7 @@
                       "id":"enctype",
                       "html":"select",
                       "value":1,
-                      "label":"Тип энкодера",
+                      "label":"Encoder-Typ",
                       "section":"options",
                       "block":[
                         {
@@ -834,7 +834,7 @@
                   "html": "button",
                   "type": 1,
                   "color": "green",
-                  "label": "🖫 Сохранить"
+                  "label": "🖫 Speichern"
                 }
               ]
             }
@@ -855,14 +855,14 @@
           "id": "ui_page_settings",
           "html": "button",
           "type": 0,
-          "label": "🔙 Выход"
+          "label": "🔙 Ausgabe"
         }
       ]
     },
     "dfplayer":{
       "section":"set_dfplayer",
       "main": true,
-      "label":"🔊 Параметры MP3 DFPlayer",
+      "label":"🔊 MP3-DFPlayer-Parameter",
       "block":[
         {
           "section": "set_dfplayer_device",
